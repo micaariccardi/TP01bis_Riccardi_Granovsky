@@ -13,7 +13,6 @@ while(opcion!=2){
             recaudoCurso = IngresarRecaudo(cantEstudiantes,"Ingrese cuánto dinero va a incluir en el regalo: ", mensajeE);
             cursos.Add(curso,recaudoCurso);
         break;
-
         case 2:
             Console.WriteLine("Curso que aportó más dinero: " + MayorEnDiccionario(cursos));
             Console.WriteLine("Promedio de dinero: " + PromedioDiccionario(cursos).ToString());
